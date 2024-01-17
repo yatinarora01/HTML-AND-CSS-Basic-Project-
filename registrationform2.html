@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>freeCodeCamp Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name<input type="text" id="name" required placeholder="Yatin Arora"></label>
+
+    <br><label id="email-label">Email id <input type="email" id="email" required placeholder="yatinarora291@yahoo.com" value="email"></label>
+
+      <br><label id="number-label">Age <input type="number" id="number" min="10" max="100" placeholder="10"></label>
+
+<br><label for="dropdown">Which option best describes your current role?
+<select id="dropdown" name="dropdown">
+<option value="1">Full Time Job</option>
+<option value="2">Full Time Learner </option>
+<option value="3">Preffer not to say </option>
+<option value="4">Other</option>
+</select>
+         
+      <br>
+<label>Would you recommend freeCodeCamp to a friend?</label><br>
+
+<label for="definitely"><input id="definitely" type="radio" name="recommendation" class="inline" value="definitely"> Definitely</label>
+<br>
+
+<label for="notsure"><input id="notsure" type="radio" name="recommendation" class="inline" value="notsure"> Not sure</label>
+<br>
+
+<label for="sure"><input id="sure" type="radio" name="recommendation" class="inline" value="sure"> Sure</label>
+<fieldset>
+  <label>
+    <input type="checkbox" value="one"> Front-end Projects
+    <br><input type="checkbox" value="two"> Back-end Projects
+    <br><input type="checkbox" value="three"> Php Projects
+    <br><input type="checkbox" value="four"> Bootsrap Projects
+<br><label for="textarea">Any comments or suggestions?</label>
+    <textarea id="textarea" rows="4" cols="15" placeholder="please type something..."></textarea>
+
+<br><button><input id="submit" type="submit"></button>
+
+
+</fieldset>
+     
+
+      </fieldset>
+  
+
+
+
+
+    </form>
+  </body>
+</html>
